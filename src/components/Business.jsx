@@ -1,6 +1,6 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import Button from "./Button.jsx";
 
 const Business = () => {
   return (
@@ -15,6 +15,8 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
         </p>
+
+        <Button styles="mt-10" />
       </div>
     </section>
   );
